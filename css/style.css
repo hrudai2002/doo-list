@@ -1,0 +1,54 @@
+
+.alert{
+    display: none;
+}
+/* Classes */
+
+
+.task-1{
+    border: solid 1px #ccc;
+}
+
+.text {
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+}
+
+
+/* Id's */
+#tasks {
+    width: 50rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #ccc;
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 992px) {
+    #tasks{
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    #tasks {
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #tasks {
+        width: 12rem;
+    }
+}
+
+
